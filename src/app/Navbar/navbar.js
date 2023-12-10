@@ -22,9 +22,14 @@ const navbar = () => {
           <span className="">
             <a href="#">Pricing</a>
           </span>
-          <span className="flex gap-[20px]">
+          <span className="flex items-center gap-[20px]">
             <a href="#">Sign in</a>
-            <a href="#">Get Supademo for Free</a>
+            <a
+              href="#"
+              className="bg-blue-500 py-[14px] px-[20px] text-white rounded-lg "
+            >
+              Get Supademo for Free
+            </a>
           </span>
         </div>
       </div>
