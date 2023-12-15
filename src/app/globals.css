@@ -7,3 +7,7 @@
 .hero-title {
   font-family: "Recoleta", sans-serif;
 }
+
+.company-logos img {
+  @apply w-[150px];
+}
