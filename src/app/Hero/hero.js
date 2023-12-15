@@ -25,6 +25,10 @@ function hero() {
           </div>
         </div>
       </div>
+      <div className="hero-img mt-[50px] border-4 shadow-2xl">
+        {" "}
+        <img src="./hero-image.png" alt="" />
+      </div>
     </section>
   );
 }
