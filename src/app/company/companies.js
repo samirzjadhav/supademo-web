@@ -2,7 +2,7 @@ import React from "react";
 
 function companies() {
   return (
-    <section className="company  max-w-7xl mr-auto ml-auto text-center py-[64px]">
+    <section className="company  max-w-7xl mr-auto ml-auto text-center py-[64px] border-b-2">
       <div className="company-title mb-[60px]">
         {" "}
         <h1 className="text-[24px] font-semibold">
