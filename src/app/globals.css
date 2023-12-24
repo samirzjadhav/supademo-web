@@ -11,3 +11,11 @@
 .company-logos img {
   @apply w-[114px] h-[33px] grayscale-[100%] opacity-[0.5];
 }
+
+.product-item span {
+  @apply text-[18px]  font-semibold;
+}
+
+.product-item h3{
+  
+}
