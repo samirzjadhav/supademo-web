@@ -16,6 +16,10 @@
   @apply text-[18px]  font-semibold;
 }
 
-.product-item h3{
-  
+.product-item h3 {
+  @apply text-[28px] leading-[2] font-medium;
+}
+
+.product-item p {
+  @apply text-[16px] text-gray-500;
 }
