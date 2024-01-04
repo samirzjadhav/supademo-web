@@ -3,6 +3,7 @@ import Navbar from "./Navbar/navbar.js";
 import Hero from "./Hero/hero.js";
 import Company from "./Company/companies.js";
 import Product from "./Product/product.js";
+import Testimonial from "./Testimonial/testimonial.js";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <Company />
       <Product />
+      <Testimonial />
     </div>
   );
 }
