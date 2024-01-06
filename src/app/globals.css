@@ -23,3 +23,9 @@
 .product-item p {
   @apply text-[16px] text-gray-500;
 }
+
+/* testimonial section */
+
+.tes-list {
+  @apply flex justify-between items-center gap-[4rem] py-[40px];
+}
