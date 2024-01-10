@@ -4,7 +4,7 @@ function product() {
   return (
     <section className="products max-w-7xl mr-auto ml-auto pb-[100px]  pt-[100px]">
       <h1 className="product-title text-center text-[48px] leading-[1] font-semibold">
-        The fastest and easiest interactive demo <br /> platform you'll ever use
+        The fastest and easiest interactive demo <br /> platform youll ever use
       </h1>
       <div className="product-list flex justify-center gap-[40px] mt-[50px]">
         <div className="product-item w-[320px]">
