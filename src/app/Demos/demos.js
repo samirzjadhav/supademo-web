@@ -1,4 +1,5 @@
 import React from "react";
+import { HiArrowSmRight } from "react-icons/hi";
 
 function demos() {
   return (
@@ -180,6 +181,12 @@ function demos() {
               engagement.
             </p>
           </div>
+        </div>
+        <div className="button flex justify-center items-center mt-[70px] py-[14px] px-[24px] bg-blue-600 rounded-xl">
+          <button className="text-[16px] font-medium text-white ">
+            View All Features
+          </button>
+          <HiArrowSmRight className="text-white" />
         </div>
       </div>
     </section>
