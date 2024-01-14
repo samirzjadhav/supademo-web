@@ -36,3 +36,23 @@
 .demo-svg {
   @apply bg-blue-500 w-[48px] h-[48px] flex items-center justify-center rounded-full;
 }
+
+/* percent */
+
+.per-item {
+  @apply flex justify-center items-center flex-col;
+}
+
+.per-number {
+  @apply flex justify-center items-center;
+}
+.per-number span {
+  @apply text-blue-500 text-[40px] font-semibold;
+}
+.per-number h1 {
+  @apply text-blue-500 text-[6rem] font-bold;
+}
+
+.per-list p {
+  @apply text-gray-500 font-medium;
+}
