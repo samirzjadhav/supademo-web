@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function companies() {
   return (
@@ -11,60 +12,29 @@ function companies() {
       </div>
       <div className="company-logos flex gap-[50px] justify-center">
         <a href="#">
-          <img
-            src="./company-logo-1.svg
-        "
-            alt="Company Logo"
-          />
+          <Image src="./company-logo-1.svg" width={50} height={50} alt="logo" />
+        </a>
+        <a href="#"></a>
+        <a href="#">
+          <Image src="./company-logo-2.svg" width={50} height={50} alt="logo" />
         </a>
         <a href="#">
-          <img
-            src="./company-logo-2.svg
-        "
-            alt="Company Logo"
-          />
+          <Image src="./company-logo-3.svg" width={50} height={50} alt="logo" />
         </a>
         <a href="#">
-          <img
-            src="./company-logo-3.svg
-        "
-            alt="Company Logo"
-          />
+          <Image src="./company-logo-4.svg" width={50} height={50} alt="logo" />
         </a>
         <a href="#">
-          <img
-            src="./company-logo-4.svg
-        "
-            alt="Company Logo"
-          />
+          <Image src="./company-logo-5.svg" width={50} height={50} alt="logo" />
         </a>
         <a href="#">
-          <img
-            src="./company-logo-5.svg
-        "
-            alt="Company Logo"
-          />
+          <Image src="/company-logo-6.png" width={50} height={50} alt="logo" />
         </a>
         <a href="#">
-          <img
-            src="./company-logo-6.png
-        "
-            alt="Company Logo"
-          />
+          <Image src="./company-logo-7.svg" width={50} height={50} alt="logo" />
         </a>
         <a href="#">
-          <img
-            src="./company-logo-7.svg
-        "
-            alt="Company Logo"
-          />
-        </a>
-        <a href="#">
-          <img
-            src="./company-logo-8.png
-        "
-            alt="Company Logo"
-          />
+          <Image src="/company-logo-8.png" width={50} height={50} alt="logo" />
         </a>
       </div>
     </section>
