@@ -56,3 +56,18 @@
 .per-list p {
   @apply text-gray-500 font-medium;
 }
+
+/* PreSale */
+
+.pre-right h4,
+.pre-top h4 {
+  @apply text-[20px] font-semibold;
+}
+.pre-right p,
+.pre-top p {
+  @apply text-[18px] font-medium text-gray-500;
+}
+
+.pre-border {
+  border: 2px solid #fef2f2;
+}
