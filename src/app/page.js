@@ -7,6 +7,7 @@ import Testimonial from "./Testimonial/testimonial.js";
 import Demos from "./Demos/demos.js";
 import Percent from "./Percent/percent.js";
 import PreSale from "./PreSale/presale.js";
+import Review from "./Review/review.js";
 export default function Home() {
   return (
     <div>
@@ -18,6 +19,7 @@ export default function Home() {
       <Demos />
       <Percent />
       <PreSale />
+      <Review />
     </div>
   );
 }

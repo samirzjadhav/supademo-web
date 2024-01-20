@@ -4,7 +4,7 @@ import { HiArrowSmRight } from "react-icons/hi";
 
 function presale() {
   return (
-    <section className=" preSale max-w-7xl mr-auto ml-auto pb-[100px]">
+    <section className=" preSale max-w-7xl mr-auto ml-auto pb-[100px] border-b-2">
       <div className="container">
         <div className="pre-border p-[12px] bg-[#FEF8F8] mb-[50px] rounded-2xl">
           <div className="pre-card flex justify-center items-center gap-[50px] bg-[#FEF2F2] rounded-2xl p-[10px] ">
