@@ -25,14 +25,17 @@ const companyLogoList = companyLogos.map((companyLogo) => (
 function companies() {
   return (
     <section className="company  max-w-7xl mr-auto ml-auto text-center py-[64px] border-b-2">
-      <div className="company-title mb-[60px]">
+      <div className="company-title mb-[40px]">
         {" "}
         <h1 className="text-[24px] font-semibold">
           Trusted by 7000+ users at fast-growing companies
         </h1>
       </div>
-      <div className="company-logos">
-        <a href="#" className="flex justify-center items-center gap-[50px] ">
+      <div className="company-logos p-[20px]">
+        <a
+          href="#"
+          className="flex flex-wrap justify-center items-center gap-[50px] "
+        >
           {companyLogoList}
         </a>
       </div>

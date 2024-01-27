@@ -3,14 +3,14 @@ import React from "react";
 function index() {
   return (
     <section className="bg-[#F1F5FF]">
-      <div className="tes-container max-w-7xl mr-auto ml-auto pb-[100px]  pt-[100px] flex flex-col gap-[3rem]">
-        <div className="tes-list ">
+      <div className="tes-container max-w-7xl mr-auto ml-auto py-[50px] md:py-[100px] px-[20px] flex flex-col md:gap-[48px]">
+        <div className="tes-list flex flex-col lg:flex-row ">
           <div className="tes-list-item">
             <h1 className="text-[40px] font-semibold leading-[1.2] mb-[20px]">
               <span className="text-blue-500">Replace</span> static screenshots
               and <br /> unengaging video
             </h1>
-            <p className="text-[18px] font-medium text-gray-500 mb-[20px]">
+            <p className=" text-[16px] mb:text-[18px] font-medium text-gray-500 mb-[20px]">
               Create an interactive Supademo as fast as you can click. Drive
               product adoption by illustrating your features and benefits,
               click-by-click.
@@ -124,7 +124,7 @@ function index() {
           </div>
           <img src="./feature-post-1.jpg" width={550} alt="" />
         </div>
-        <div className="tes-list ">
+        <div className="tes-list  flex flex-col-reverse lg:flex-row  ">
           <img src="./feature-post-3.jpg" width={550} alt="" />
           <div className="tes-list-item">
             <h1 className="text-[40px] font-semibold leading-[1.2] mb-[20px]">
@@ -132,7 +132,7 @@ function index() {
               <br />
               with Generative AI
             </h1>
-            <p className="text-[18px] font-medium text-gray-500 mb-[20px]">
+            <p className="text-[16px] mb:text-[18px] font-medium text-gray-500 mb-[20px]">
               Scale how your team communicates products with AI. Add AI
               voiceovers, auto-generate text annotations, and translate Supademo
               into 15+ languages with one click.
@@ -243,13 +243,13 @@ function index() {
             </div>
           </div>
         </div>
-        <div className="tes-list ">
+        <div className="tes-list  flex flex-col lg:flex-row ">
           <div className="tes-list-item">
             <h1 className="text-[40px] font-semibold leading-[1.2] mb-[20px]">
               <span className="text-blue-500">Share </span> everywhere to drive
               adoption and engagement
             </h1>
-            <p className="text-[18px] font-medium text-gray-500 mb-[20px]">
+            <p className=" text-[16px] mb:text-[18px] font-medium text-gray-500 mb-[20px]">
               Share your Supademo as a link, multi-demo tour, or embed across
               support docs, websites, and onboarding playbooks.
             </p>

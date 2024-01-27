@@ -2,12 +2,12 @@ import React from "react";
 
 function percent() {
   return (
-    <section className="max-w-7xl mr-auto ml-auto py-[100px]">
+    <section className="max-w-7xl mr-auto ml-auto py-[50px] px-[20px] md:py-[100px]">
       <div className="per-container flex justify-center items-center flex-col">
-        <h1 className="text-[44px] font-medium">
+        <h1 className="text-[34px] md:text-[44px] font-medium text-center">
           Drive productivity across any team
         </h1>
-        <div className="per-list flex gap-[20px] pt-[30px]">
+        <div className="per-list flex flex-col md:flex-row gap-[10px]  md:gap-[20px] pt-[30px]">
           <div className="per-item">
             <div className="per-number">
               <h1>25</h1>

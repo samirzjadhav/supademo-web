@@ -92,10 +92,10 @@ console.log(peopleReviews);
 
 function review() {
   return (
-    <section className="review max-w-7xl mr-auto ml-auto pt-[100px] pb-[100px]">
+    <section className="review max-w-7xl mr-auto ml-auto py-[50px] px-[30px] md:py-[100px] ">
       <div className="review-container">
         <div className="review-top flex flex-col justify-center items-center gap-[30px]">
-          <h1 className="text-[48px] font-bold leading-[1] text-center">
+          <h1 className=" text-[38px] md:text-[48px] font-semibold md:font-bold leading-[1] text-center">
             Hands down the{" "}
             <span className="text-blue-600">
               {" "}
@@ -122,7 +122,7 @@ function review() {
         </div>
 
         <div className="review-bottom flex justify-center items-center mt-[100px]  ">
-          <div className="review-info grid grid-cols-3 gap-5">
+          <div className="review-info grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[20px] ">
             {peopleReviews}
           </div>
         </div>

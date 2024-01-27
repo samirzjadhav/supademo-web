@@ -4,8 +4,8 @@ import { HiArrowSmRight } from "react-icons/hi";
 function demos() {
   return (
     <section className="bg-[#F1F5FF]">
-      <div className="demo-container max-w-7xl mr-auto ml-auto pb-[100px] flex flex-col items-center justify-center">
-        <h3 className="demo-header text-[36px] font-semibold">
+      <div className="demo-container max-w-7xl mr-auto ml-auto pt-[20px] pb-[100px] px-[20px] flex flex-col items-center justify-center text-center leading-[1]">
+        <h3 className="demo-header text-[36px] font-semibold pb-[20px]">
           Scale how your team demonstrates products
         </h3>
         <p>

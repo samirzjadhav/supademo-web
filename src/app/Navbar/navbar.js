@@ -3,7 +3,7 @@ import { HiChevronDown } from "react-icons/hi";
 
 const navbar = () => {
   return (
-    <section className="navbar max-w-7xl mr-auto ml-auto">
+    <section className="navbar max-w-7xl mr-auto ml-auto hidden md:block ">
       <div className="nav-container flex justify-between p-[10px]">
         <img src="./logo.svg" alt="logo" width={200} height={50} />
 

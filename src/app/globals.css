@@ -27,7 +27,7 @@
 /* testimonial section */
 
 .tes-list {
-  @apply flex justify-between items-center gap-[4rem] py-[40px];
+  @apply text-center justify-between items-center gap-[64px] py-[40px];
 }
 .demo-card {
   @apply w-[340px];

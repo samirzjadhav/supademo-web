@@ -4,10 +4,10 @@ import { HiArrowSmRight } from "react-icons/hi";
 
 function presale() {
   return (
-    <section className=" preSale max-w-7xl mr-auto ml-auto pb-[100px] border-b-2">
-      <div className="container">
+    <section className=" preSale max-w-7xl mr-auto ml-auto pb-[100px] border-b-2 flex items-center justify-center">
+      <div className="container p-[30px] ">
         <div className="pre-border p-[12px] bg-[#FEF8F8] mb-[50px] rounded-2xl">
-          <div className="pre-card flex justify-center items-center gap-[50px] bg-[#FEF2F2] rounded-2xl p-[10px] ">
+          <div className="pre-card flex flex-col md:flex-row justify-center items-center gap-[50px] bg-[#FEF2F2] rounded-2xl p-[10px] ">
             <div className="pre-right flex flex-col gap-[20px]">
               <h4>Customer Success</h4>
               <p>
@@ -26,8 +26,8 @@ function presale() {
             </div>
           </div>
         </div>
-        <div className="pre-cards flex justify-center gap-[20px]">
-          <div className="pre-card p-[20px] w-[60%] bg-[#FFFBEB] rounded-2xl">
+        <div className="pre-cards flex flex-col md:flex-row justify-center gap-[20px]">
+          <div className="pre-card p-[20px] md:w-[60%] bg-[#FFFBEB] rounded-2xl">
             <div className="pre-top flex flex-col gap-[10px] p-[32px]">
               <h4>Pre-sales</h4>
               <p>
