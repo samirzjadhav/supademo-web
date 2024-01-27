@@ -26,7 +26,7 @@ const navbar = () => {
             <a href="#">Sign in</a>
             <a
               href="#"
-              className="bg-blue-500 py-[14px] px-[20px] text-white rounded-lg "
+              className="bg-blue-500 py-[10px] px-[20px] text-white rounded-lg "
             >
               Get Supademo for Free
             </a>
