@@ -8,6 +8,8 @@ import Demos from "./Demos/demos.js";
 import Percent from "./Percent/percent.js";
 import PreSale from "./PreSale/presale.js";
 import Review from "./Review/review.js";
+import Teams from "./Teams/teams.js";
+
 export default function Home() {
   return (
     <div>
@@ -20,6 +22,7 @@ export default function Home() {
       <Percent />
       <PreSale />
       <Review />
+      <Teams />
     </div>
   );
 }
