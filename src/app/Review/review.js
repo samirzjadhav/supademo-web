@@ -142,6 +142,12 @@ function review() {
             {peopleReviews}
           </div>
         </div>
+        <div className="button flex justify-center items-center mt-[70px]">
+          <button className=" flex items-center text-[16px] font-medium bg-blue-600 text-white py-[14px] px-[24px] rounded-xl">
+            View All Features
+            <HiArrowSmRight className="text-white" />
+          </button>
+        </div>
       </div>
     </section>
   );
