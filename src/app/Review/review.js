@@ -8,7 +8,7 @@ const peopleReviewsList = [
     id: 1,
     name: "Daniela De Almada",
     role: "Head of Marketing",
-    profileImg: "/daniela-photo.png",
+    profileImg: "/james-photo.jpeg",
     review:
       "I absolutely love Supademo. We are using it for so much more than just showcasing use cases in our home page!",
   },
@@ -24,7 +24,7 @@ const peopleReviewsList = [
     id: 3,
     name: "Felix True",
     role: "Head of Presales",
-    profileImg: "/daniela-photo.png",
+    profileImg: "/Untitled.png",
     review:
       "Supademo has been a huge asset across multiple departments and workflows at easy software. We are thrilled to be working with them.",
   },
@@ -32,33 +32,49 @@ const peopleReviewsList = [
     id: 4,
     name: "Eric Reynolds",
     role: "Marketing Agency Owner",
-    profileImg: "/daniela-photo.png",
+    profileImg: "/Untitled.png",
     review:
       "Must needed extension! Supademo is the perfect tool for educators, web design agencies, software providers, and helpful for pretty much any individual, company, or organization that needs to train or provide step-by-step tutorials.",
   },
   {
-    id: 1,
+    id: 5,
     name: "Justin Berg",
     role: "Co-founder",
-    profileImg: "/daniela-photo.png",
+    profileImg: "/Untitled.png",
     review:
       "A game changer for us when it comes to making our product even more simple for our users to grasp, as well as helping them during the actual onboarding process.",
   },
   {
-    id: 1,
-    name: "Justin Berg",
-    role: "Co-founder",
-    profileImg: "/daniela-photo.png",
+    id: 6,
+    name: "Robert Boka",
+    role: "Co-founder & CEO",
+    profileImg: "/Untitled.png",
     review:
-      "A game changer for us when it comes to making our product even more simple for our users to grasp, as well as helping them during the actual onboarding process.",
+      "Great work, I’m thoroughly impressed. It’s literally saved me from getting on three phone calls just today by annotating a walkthrough for a customer who hasn’t completed onboarding.",
   },
   {
-    id: 1,
-    name: "Justin Berg",
-    role: "Co-founder",
-    profileImg: "/daniela-photo.png",
+    id: 7,
+    name: "Leonard Korkmaz",
+    role: "Product Marketing Manager",
+    profileImg: "/Untitled.png",
     review:
-      "A game changer for us when it comes to making our product even more simple for our users to grasp, as well as helping them during the actual onboarding process.",
+      "Supademo has become an integral tool for us in multiple ways. Primarily, it's a cornerstone within customer success.",
+  },
+  {
+    id: 8,
+    name: "Lucien Lu",
+    role: "Digital Marketer",
+    profileImg: "/Untitled.png",
+    review:
+      "Way better than Loom or Scribe. Supademo is 10x better than any other product I've seen.",
+  },
+  {
+    id: 9,
+    name: "Nick Lighter",
+    role: "Lead Account Executive",
+    profileImg: "/Untitled.png",
+    review:
+      "Supademo has become an integral tool for us in multiple ways. Primarily, it's a cornerstone within customer success.",
   },
 ];
 
