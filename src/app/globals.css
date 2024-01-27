@@ -71,3 +71,13 @@
 .pre-border {
   border: 2px solid #fef2f2;
 }
+
+/* Footer */
+
+.use-cases h6 {
+  @apply uppercase font-bold pb-[10px] text-[16px];
+}
+
+.use-cases li > a {
+  @apply pb-[10px] text-[14px] font-medium text-gray-300;
+}
