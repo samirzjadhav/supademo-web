@@ -4,7 +4,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <section className="footer bg-gray-900">
-      <div className="Footer-container max-w-6xl mr-auto ml-auto py-[50px] px-[30px] md:py-[100px] text-white ">
+      <div className="Footer-container max-w-6xl mr-auto ml-auto py-[50px] px-[30px] md:pt-[100px] text-white ">
         <div className=" flex flex-col md:flex-row gap-[30px] items-center md:items-start ">
           <div className="footer-logo">
             <Image src="./supademo-logo.svg" width={180} height={50} alt="" />
