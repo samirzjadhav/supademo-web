@@ -3,7 +3,7 @@ import { HiArrowSmRight } from "react-icons/hi";
 
 function hero() {
   return (
-    <section className="hero-sectoion  max-w-7xl mr-auto ml-auto">
+    <section className="hero-sectoion">
       <div className="hero-container p-[20px] mt-[100px] ">
         <div className="hero-content">
           <h1 className="hero-title text-center text-[48px] md:text-[72px] leading-[1] font-bold mb-[24px]">

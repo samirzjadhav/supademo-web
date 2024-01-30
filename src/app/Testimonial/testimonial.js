@@ -3,7 +3,7 @@ import React from "react";
 function index() {
   return (
     <section className="bg-[#F1F5FF]">
-      <div className="tes-container max-w-7xl mr-auto ml-auto py-[50px] md:py-[100px] px-[20px] flex flex-col md:gap-[48px]">
+      <div className="tes-container flex flex-col md:gap-[48px]">
         <div className="tes-list flex flex-col lg:flex-row ">
           <div className="tes-list-item">
             <h1 className="text-[40px] font-semibold leading-[1.2] mb-[20px]">

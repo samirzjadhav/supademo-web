@@ -5,7 +5,7 @@ import { HiArrowSmRight } from "react-icons/hi";
 
 const Teams = () => {
   return (
-    <section className="teams max-w-7xl mr-auto ml-auto py-[50px] px-[30px] md:py-[100px] border-t-2 ">
+    <section className="teams py-[50px] px-[30px] md:py-[100px] border-t-2 ">
       <div className="teams-container">
         <div className="teams-header flex flex-col justify-center items-center gap-[30px]">
           <h1 className=" text-[28px] md:text-[48px] font-medium md:font-semibold leading-[1.2] text-center">

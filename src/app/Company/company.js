@@ -24,7 +24,7 @@ const companyLogoList = companyLogos.map((companyLogo) => (
 
 function companies() {
   return (
-    <section className="company  max-w-7xl mr-auto ml-auto text-center py-[64px] border-b-2">
+    <section className="company text-center py-[64px] border-b-2">
       <div className="company-title mb-[40px]">
         {" "}
         <h1 className="text-[24px] font-semibold">

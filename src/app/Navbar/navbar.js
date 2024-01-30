@@ -8,7 +8,7 @@ import Image from "next/image";
 const Navbar = () => {
   const [state, setState] = useState(false);
   return (
-    <section className="navbar max-w-7xl mr-auto ml-auto shadow-sm ">
+    <section className="navbar shadow-md ">
       <div className="nav-container shadow-2xl md:shadow-[0] flex flex-col md:flex-row justify-between p-[20px] md:p-[10px] top-0 w-full max-w-7xl bg-white fixed z-[1000]">
         <div className="nav-image flex justify-between items-center">
           {" "}

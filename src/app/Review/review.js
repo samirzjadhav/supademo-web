@@ -108,7 +108,7 @@ console.log(peopleReviews);
 
 function review() {
   return (
-    <section className="review max-w-7xl mr-auto ml-auto py-[50px] px-[30px] md:py-[100px] ">
+    <section className="review py-[50px] px-[30px] md:py-[100px] ">
       <div className="review-container">
         <div className="review-top flex flex-col justify-center items-center gap-[30px]">
           <h1 className=" text-[38px] md:text-[48px] font-semibold md:font-bold leading-[1] text-center">

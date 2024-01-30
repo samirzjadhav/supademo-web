@@ -11,6 +11,10 @@
 .menu-link {
   @apply hidden md:block;
 }
+
+section {
+  @apply max-w-7xl mr-auto ml-auto  px-[30px];
+}
 .hero-title {
   font-family: "Recoleta", sans-serif;
 }
