@@ -13,7 +13,7 @@
 }
 
 section {
-  @apply max-w-7xl mr-auto ml-auto  px-[30px];
+  @apply max-w-7xl mr-auto ml-auto;
 }
 .hero-title {
   font-family: "Recoleta", sans-serif;

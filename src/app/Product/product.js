@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function product() {
   return (
-    <section className="products py-[50px] md:py-[100px]  px-[30px]">
+    <section className="products py-[50px] md:py-[100px] px-[30px]">
       <h1 className="product-title text-center text-[38px] md:text-[48px] leading-[1] font-semibold">
         The fastest and easiest interactive demo <br /> platform youll ever use
       </h1>
