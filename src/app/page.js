@@ -9,6 +9,7 @@ import PreSale from "./PreSale/presale.js";
 import Review from "./Review/review.js";
 import Teams from "./Teams/teams.js";
 import Footer from "./Footer/footer.js";
+import Swiper from "./Swiper/swiper.js";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Percent />
       <PreSale />
       <Review />
+      <Swiper />
       <Teams />
       <Footer />
     </div>
