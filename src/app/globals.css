@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.cdnfonts.com/css/recoleta");
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
 
 .menu-link-mobile {
   @apply block  pt-[20px] !important;
@@ -101,8 +101,24 @@ section {
 }
 
 .swiper-slide {
-  @apply p-[20px] bg-gray-500 rounded-xl;
+  @apply rounded-xl w-full;
 }
 .swiper-slide img {
-  @apply w-[300px] h-[180px] rounded-xl !important;
+  @apply w-[600px] h-[180px] rounded-t-lg !important;
+}
+
+.r-card {
+  @apply m-auto rounded-[8px] p-[16px];
+  max-width: max-content;
+  transition: all 300ms ease-in-out;
+}
+.hero-title,
+.company-title,
+.product-title,
+.demo-header,
+.per-container h1,
+.review-top h1,
+.teams-header h1,
+.card-heading h1 {
+  font-family: "Protest Riot" !important;
 }

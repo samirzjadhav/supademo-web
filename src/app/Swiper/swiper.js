@@ -1,96 +1,48 @@
 "use client";
+import React from "react";
 import Image from "next/image";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import "swiper/css";
+import data from "../Utilities/slider.json";
+import { sliderSettings } from "../Utilities/common.js";
 
-// SwiperComponent.js
-import { React, useEffect } from "react";
-import Swiper from "swiper";
-
-const SwiperComponent = () => {
-  useEffect(() => {
-    const mySwiper = new Swiper(".swiper-container", {
-      // Swiper configuration options
-      // For example:
-      slidesPerView: 1,
-      spaceBetween: 10,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-    });
-
-    // Clean up Swiper instance on unmount
-    return () => {
-      mySwiper.destroy();
-    };
-  }, []);
-
+const SwiperSliders = () => {
   return (
-    <div className="swiper-container">
-      <div className="swiper-wrapper flex gap-[20px] text-white">
-        {/* Your slides go here */}
-        <div className="swiper-slide">
-          {" "}
-          <Image src="/assets/slider-1.png" alt="" width={320} height={180} />
-          <h1>
-            4 Step Guide to Effective Founder-Led <br /> Sales Demos
-          </h1>
-          <p>Jan 25, 2024</p>
-        </div>
-        <div className="swiper-slide">
-          {" "}
-          <Image src="/assets/slider-2.png" alt="" width={320} height={180} />
-          <h1>
-            4 Step Guide to Effective Founder-Led <br /> Sales Demos
-          </h1>
-          <p>Jan 25, 2024</p>
-        </div>
-        <div className="swiper-slide">
-          {" "}
-          <Image src="/assets/slider-3.png" alt="" width={320} height={180} />
-          <h1>
-            4 Step Guide to Effective Founder-Led <br /> Sales Demos
-          </h1>
-          <p>Jan 25, 2024</p>
-        </div>
-        <div className="swiper-slide">
-          {" "}
-          <Image src="/assets/slider-4.png" alt="" width={320} height={180} />
-          <h1>
-            4 Step Guide to Effective Founder-Led <br /> Sales Demos
-          </h1>
-          <p>Jan 25, 2024</p>
-        </div>
-        <div className="swiper-slide">
-          {" "}
-          <Image src="/assets/slider-5.png" alt="" width={320} height={180} />
-          <h1>
-            4 Step Guide to Effective Founder-Led <br /> Sales Demos
-          </h1>
-          <p>Jan 25, 2024</p>
-        </div>
-        <div className="swiper-slide">
-          {" "}
-          <Image src="/assets/slider-6.png" alt="" width={320} height={180} />
-          <h1>
-            4 Step Guide to Effective Founder-Led <br /> Sales Demos
-          </h1>
-          <p>Jan 25, 2024</p>
-        </div>
-        <div className="swiper-slide">
-          {" "}
-          <Image src="/assets/slider-7.png" alt="" width={320} height={180} />
-          <h1>
-            4 Step Guide to Effective Founder-Led <br /> Sales Demos
-          </h1>
-          <p>Jan 25, 2024</p>
-        </div>
-
-        {/* Add more slides as needed */}
+    <section className="card-wrapper border-t-2">
+      <div className="card-heading  max-w-7xl mr-auto ml-auto text-center py-[50px] px-[30px]">
+        <h1 className="text-[3rem] flex flex-col leading-[1] font-bold">
+          Resources to help you create <span>better product demos</span>
+        </h1>
       </div>
-      <div className="swiper-button-next"> hello</div>
-      <div className="swiper-button-prev">hello</div>
+
+      <div className="card-container">
+        <Swiper {...sliderSettings}>
+          <SliderButtons />
+          {data.map((card, i) => (
+            <SwiperSlide key={i}>
+              <div className=" r-card">
+                <Image src={card.image} alt="home" width={600} height={400} />
+                <div className="flex flex-col items-start justify-center gap-[10px] rounded-b-lg shadow-xl p-[10px]">
+                  <span className="secondaryText">{card.detail}</span>
+                  <span className="primaryText">{card.date}</span>
+                </div>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </section>
+  );
+};
+
+const SliderButtons = () => {
+  const swiper = useSwiper();
+  return (
+    <div className="r-buttons flexCenter">
+      <button onClick={() => swiper.slidePrev()}>&lt;</button>
+      <button onClick={() => swiper.slideNext()}>&gt;</button>
     </div>
   );
 };
 
-export default SwiperComponent;
+export default SwiperSliders;
