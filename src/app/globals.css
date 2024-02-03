@@ -112,6 +112,10 @@ section {
   max-width: max-content;
   transition: all 300ms ease-in-out;
 }
+
+.swiper-btn {
+  @apply px-[20px] py-[12px] rounded-full bg-blue-200 font-bold text-[18px];
+}
 .hero-title,
 .company-title,
 .product-title,

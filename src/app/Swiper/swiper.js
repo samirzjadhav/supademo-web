@@ -38,9 +38,13 @@ const SwiperSliders = () => {
 const SliderButtons = () => {
   const swiper = useSwiper();
   return (
-    <div className="r-buttons flexCenter">
-      <button onClick={() => swiper.slidePrev()}>&lt;</button>
-      <button onClick={() => swiper.slideNext()}>&gt;</button>
+    <div className="flex justify-center gap-[20px] mt-[20px] mb-[40px]">
+      <button className="swiper-btn" onClick={() => swiper.slidePrev()}>
+        &lt;
+      </button>
+      <button className="swiper-btn" onClick={() => swiper.slideNext()}>
+        &gt;
+      </button>
     </div>
   );
 };
